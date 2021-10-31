@@ -22,9 +22,9 @@ It looks like this:
  - I don't want your data, so I don't operate the service. Everything runs as a google script on your own account.
  1. Go to https://script.google.com/home
  2. Click "New Project"
- 3. Copy the contents of `Code.gs` into the editor.
+ 3. Copy the contents of [`Code.gs`](https://github.com/davidbstein/gmail-spam-summary/blob/main/Code.gs) into the editor.
  4. Open the "triggers" menu - the tiny clock on the left of the screen.
-    - ![Screen Shot 2021-10-31 at 14 40 41](https://user-images.githubusercontent.com/1490241/139597407-308ffc1b-43ae-473d-9356-02f61c3b9f13.png)
+    - ![Screen Shot 2021-10-31 at 14 52 18](https://user-images.githubusercontent.com/1490241/139597686-ec0cb819-2ce9-4110-a424-15137ad106a2.png)
  5. Click the "Add Trigger" button in the bottom right corner
  6. \[OPTIONAL] The default settings will run the script hourly. The bottom two options allow you to change the interval. For a daily summary, use a "Day Timer" and choose the time of day you'd like an alert.
  7. The script will ask for permission. You may need to disable your popup blocker to see the confirmation window from Google.
