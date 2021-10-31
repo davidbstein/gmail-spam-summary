@@ -1,5 +1,12 @@
 # Gmail Spam Summary
 
+- [Overview](#overview)
+- [Features](#features)
+- [How to Install](#how-to-install)
+- [Licence](#licence)
+
+## Overview
+
 **Sometime Gmail's spam filter is too agressive. **
 
 I was missing a lot of important emails, so I made a thing that emails me a summary of everything in my spam filter.
@@ -33,3 +40,8 @@ It looks like this:
  8. The script will ask for permission. You may need to disable your popup blocker to see the confirmation window from Google.
 
 **NOTE** The script works by checking for _unread_ messages, and marks messages as read when it includes them in a summary. You may want to empty your spam folder or mark everything in spam as "read" before running the script for the first time.
+
+
+## Licence
+
+This is available under the MIT license, available here: [LICENSE](https://github.com/davidbstein/gmail-spam-summary/blob/main/LICENSE)
